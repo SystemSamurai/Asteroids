@@ -46,6 +46,12 @@ def main() -> None:
                 sys.exit()
             else:
                 False
+            for shot in shots:
+                if shot.collides_with(asteroid):
+                    log_event("asteroid_shot")
+                    pygame.sprite.Sprite.kill(asteroid)
+                else:
+                    False
 
         screen.fill("black")
 
