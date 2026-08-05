@@ -1,5 +1,13 @@
+# Running the project
+Required modules
+* pygame
+* uv
+
+Command
+uv run main.py
+
 # Extending the Project
-You've done all the required steps, but if you'd like to make the game your own, here are some ideas:
+Some ideas to add:
 
 * Add a scoring system
 * Implement multiple lives and respawning
